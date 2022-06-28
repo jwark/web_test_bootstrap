@@ -16,7 +16,7 @@ namespace :spec do
   desc "Run integration specs"
   RSpec::Core::RakeTask.new(:integration) do |t|
     t.pattern = "./spec/integration/**/*_spec.rb" # don't need this, it's default.
-    t.rspec_opts = ["--color", "--format", "nested"]
+    t.rspec_opts = ["--color", "--format", "documentation"]
   end
 
 end

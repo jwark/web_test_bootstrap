@@ -1,16 +1,14 @@
 require 'integration/integration_spec_helper'
 
-describe "Navigating local static files", :type => :request do
+describe "Navigating remote website", :type => :request do
 
   describe "index" do
     before do
-      visit('http://google.com/')
+      visit('https://google.com/')
     end  
 
     it "loads the google homepage" do
-      find('title').text.should == 'Google'
+      expect(page).to have_title('Google')
     end
-
   end
-
 end

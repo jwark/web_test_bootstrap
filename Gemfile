@@ -1,8 +1,9 @@
-source "http://rubygems.org"
+source 'https://rubygems.org'
 
-gem "nokogiri"
-gem "rake"
-gem "rspec"
-gem "capybara"
-gem "thin"
-gem "rspec-html-matchers"
+ruby '3.1.2'
+
+gem 'rake'
+gem 'rspec'
+gem 'capybara'
+gem 'apparition'
+gem 'rspec-html-matchers'

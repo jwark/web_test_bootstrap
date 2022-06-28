@@ -1,7 +1,5 @@
-Simple base ruby/rake project which uses capybara to test either static local or hosted HTML pages.
+Simple base ruby/rake project which uses capybara to test hosted websites.
 
 Simply take a copy of this repo and run:
  bundle install
  rake
-
-(works with RVM Ruby 1.9.3)
